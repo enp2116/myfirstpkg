@@ -1,9 +1,9 @@
 Package: myfirstpkg
-Title: What the Package Does (One Line, Title Case)
+Title: Example R Package
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Emily", "Potts", , "epotts5@jh.edu", role = c("aut", "cre"))
+Description: This package provides simple functions for basic arithmetic operations, including add_numbers for adding two numeric values and subtract_numbers for calculating the difference between two numbers. It is designed as an easy-to-use tool for practicing package creation and function implementation in R.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

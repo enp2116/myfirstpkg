@@ -3,6 +3,7 @@
 # Site title and subtitle
 title: "My First Package"
 subtitle: "A Simple Demonstration Package"
+author: "Emily Potts"
 
 # Navbar
 navbar:
@@ -20,29 +21,7 @@ footer:
 
 # Homepage customization
 home:
-  # Tagline
-  tagline: "A lightweight R package for basic mathematical operations."
+  title: "My First Package"
+  rmd: index
 
-  # Add a short introduction
-  intro: |
-    Welcome to **myfirstpkg**, a minimal R package designed for demonstration purposes.
-    This package currently provides functions for:
-    - Adding two numbers (`add_numbers()`)
-    - Subtracting two numbers (`subtract_numbers()`)
-
-    Explore the reference pages for more details or check out the vignettes for tutorials.
-
-  # Featured articles or vignettes
-  articles:
-    - title: "Getting Started"
-      contents: articles/example.html
-    - title: "Introduction"
-      contents: articles/introduction.html
-
-  # Add a custom README section (optional)
-  readme: |
-    For installation, use:
-    ```R
-    devtools::install_github("enp2116/myfirstpkg")
-    ```
 
