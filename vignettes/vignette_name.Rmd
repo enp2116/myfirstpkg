@@ -1,19 +1,33 @@
 ---
-title: "vignette_name"
+title: "Example Tutorial"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{vignette_name}
+  %\VignetteIndexEntry{Example Tutorial}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
+# Welcome to My Example Package
+
+This tutorial explains how to use the main functions in the `myfirstpkg` package.
+
+---
+
+## Adding Two Numbers with `add_numbers()`
+
+The `add_numbers()` function takes two numeric inputs and returns their sum. Here’s an example:
+
+```{r}
+library(myfirstpkg)
+
+# Add two numbers
+result_add <- add_numbers(2, 3)
+result_add
 ```
 
-```{r setup}
-library(myfirstpkg)
+The subtract_numbers() function takes two numeric inputs and returns the result of subtracting the second number from the first. Here’s how you can use it:
+```{r}
+# Subtract two numbers
+result_subtract <- subtract_numbers(5, 2)
+result_subtract
 ```
